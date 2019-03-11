@@ -4,6 +4,7 @@ go 1.12
 
 require (
 	github.com/aws/aws-sdk-go v1.17.14
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-ini/ini v1.42.0
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1
