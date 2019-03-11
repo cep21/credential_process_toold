@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"io"
+	"os"
+
 	"github.com/aws/aws-sdk-go/aws/defaults"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/go-ini/ini"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"io"
-	"os"
 )
 
 func main() {
