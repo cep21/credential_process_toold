@@ -1,5 +1,5 @@
 # credential_process_toold
-Convert credential_process inside aws credentials file to an older style creds file.
+Convert `credential_process` inside aws credentials file to an older style creds file.
 
 ## Install
 
@@ -11,7 +11,7 @@ With go1.11 or later,
 
 ## Why
 
-Some older programs do not understand the `credential_process` field inside `~/.aws/credentials files`.
+Some older programs do not understand the `credential_process` field inside `~/.aws/credentials` files.
 To get around this, you can read the file and regenerate it with credentials from an external process in a
 format that older cli programs will understand.
 
