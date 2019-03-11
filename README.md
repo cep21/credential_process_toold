@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cep21/credential_process_toold.svg?branch=master)](https://travis-ci.org/cep21/credential_process_toold)
+[![Build Status](https://travis-ci.com/cep21/credential_process_toold.svg?branch=master)](https://travis-ci.com/cep21/credential_process_toold)
 # credential_process_toold
 Convert `credential_process` inside aws credentials file to an older style creds file.
 
