@@ -27,13 +27,13 @@ credential_process    = some_process --account-id 67891 --role Admin
 
 You could then run the **credential_process_toold** binary on this file and pipe the output to another file
 
-```ini
+```bash
 credential_process_toold generate > /tmp/another_file
 ```
 
 If you were to cat this file, you will see generated credentials from the credentials_process.
 
-```
+```ini
 [company-hatmaker]
 region                = us-west-2
 credential_process    = some_process --account-id 12345 --role Admin
@@ -52,6 +52,6 @@ aws_session_token     = ABCDEFGABCDEFGABCDEFGABCDEFG+DEADBEAF+333211111
 
 You can now explicitly set the credentials file to what you generated and run older AWS-CLI style commands.
 
-```base
+```bash
 AWS_SHARED_CREDENTIALS_FILE=/tmp/another_file terraform init
 ```
