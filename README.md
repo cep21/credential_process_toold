@@ -5,6 +5,10 @@ Convert credential_process inside aws credentials file to an older style creds f
 
 `go get -u github.com/cep21/credential_process_toold`
 
+With go1.11 or later,
+
+`GO111MODULE=on go get -u github.com/cep21/credential_process_toold@v1.0.0`
+
 ## Why
 
 Some older programs do not understand the `credential_process` field inside `~/.aws/credentials files`.
