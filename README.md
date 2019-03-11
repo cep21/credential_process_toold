@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/cep21/credential_process_toold.svg?branch=master)](https://travis-ci.com/cep21/credential_process_toold)
 # credential_process_toold
-Convert `credential_process` inside aws credentials file to an older style creds file.
+Convert [credential_process](https://docs.aws.amazon.com/cli/latest/topic/config-vars.html#sourcing-credentials-from-external-processes) inside aws credentials file to an older style creds file.
 
 ## Install
 
