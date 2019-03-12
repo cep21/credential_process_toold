@@ -63,6 +63,7 @@ func (g *generateCommand) run(cmd *cobra.Command, args []string) (retErr error) 
 				retErr = outFile.Close()
 			}
 		}()
+		out = outFile
 	}
 	_, err = file.WriteTo(out)
 	return errors.Wrap(err, "unable to write file output")
